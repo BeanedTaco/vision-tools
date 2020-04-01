@@ -20,3 +20,12 @@ Take the scripts and put them in the main Vision repo folder.
 If you haven't already, grab Node.js at its [website](https://nodejs.org). Then, install the dependencies with ``npm install``.
 
 If you changed the appname in package.json, you will need to rename the files in the Build script accordingly.
+
+## How to build Vision without a script
+
+```npx electron-packager . --platform=darwin --arch=x64 --out=.\dist
+npx electron-packager . --platform=linux --arch=x64 --out=.\dist
+npx electron-packager . --platform=linux --arch=ia32 --out=.\dist
+npx electron-packager . --platform=linux --arch=armv7l --out=.\dist
+npx electron-packager . --platform=linux --arch=arm64 --out=.\dist
+npx electron-builder build --win -p always```
