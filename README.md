@@ -28,4 +28,5 @@ npx electron-packager . --platform=linux --arch=x64 --out=.\dist
 npx electron-packager . --platform=linux --arch=ia32 --out=.\dist
 npx electron-packager . --platform=linux --arch=armv7l --out=.\dist
 npx electron-packager . --platform=linux --arch=arm64 --out=.\dist
-npx electron-builder build --win -p always```
+npx electron-builder build --win -p always
+```
