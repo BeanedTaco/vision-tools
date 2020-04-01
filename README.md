@@ -15,7 +15,7 @@ Next, download the Vision repo and the Vision Tools repo.
 
 Store the repos in the workspace.
 
-Take the scripts and put them in the main Vision repo folder.
+Take the scripts from [scripts](scripts) and put them in the main Vision repo folder.
 
 If you haven't already, grab Node.js at its [website](https://nodejs.org). Then, install the dependencies with ``npm install``.
 
