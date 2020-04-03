@@ -7,7 +7,7 @@ A repo that includes all the tools and examples you need to modify and package V
 
 First, create a workspace to store the files in. Windows users can use [WorkspaceBuilder](https://github.com/BeanedTaco/WorkspaceBuilder/releases) to create a workspace quickly.
 
-Next, download the Vision repo and the Vision Tools repo.
+Next, download the [Vision](https://github.com/BeanedTaco/vision) repo and the Vision Tools repo.
 
 - Vision: [Click here](https://github.com/BeanedTaco/vision/archive/master.zip)
 
