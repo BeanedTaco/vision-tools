@@ -1,3 +1,4 @@
+### THIS REPOSITORY IS NO LONGER IN USE.
 # vision-tools
 A repo that includes all the tools and examples you need to modify and package Vision Browser.
 
@@ -32,4 +33,4 @@ npx electron-packager . --platform=linux --arch=ia32 --out=.\dist
 npx electron-packager . --platform=linux --arch=armv7l --out=.\dist
 npx electron-packager . --platform=linux --arch=arm64 --out=.\dist
 npx electron-builder build --win -p always
-```
+```~~
