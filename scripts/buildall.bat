@@ -16,15 +16,13 @@ exit
 cls
 start cmd /c npx electron-packager . --platform=darwin --arch=x64 --out=.\dist
 start cmd /c npx electron-packager . --platform=linux --arch=x64 --out=.\dist
-start cmd /c npx electron-packager . --platform=linux --arch=ia32 --out=.\dist
 start cmd /c npx electron-packager . --platform=linux --arch=armv7l --out=.\dist
 start cmd /c npx electron-packager . --platform=linux --arch=arm64 --out=.\dist
 start cmd /c npx electron-builder build --win -p always
 cd %~dp0
-timeout /t 15 /nobreak
+timeout /t 70 /nobreak
 cls
 powershell -command compress-archive -path '%CD%\dist\visionbrowser-darwin-x64' -destinationpath '%CD%\dist\visionbrowser-darwin-x64.zip'
 powershell -command compress-archive -path '%CD%\dist\visionbrowser-linux-x64' -destinationpath '%CD%\dist\visionbrowser-linux-x64.zip'
 powershell -command compress-archive -path '%CD%\dist\visionbrowser-linux-arm64' -destinationpath '%CD%\dist\visionbrowser-linux-arm64.zip'
 powershell -command compress-archive -path '%CD%\dist\visionbrowser-linux-armv7l' -destinationpath '%CD%\dist\visionbrowser-linux-armv7l.zip'
-powershell -command compress-archive -path '%CD%\dist\visionbrowser-linux-ia32' -destinationpath '%CD%\dist\visionbrowser-linux-ia32.zip'
